@@ -1,0 +1,6 @@
+- [x] Build shared visual system and homepage from supplied copy.
+- [x] Build all sitemap pages, navigation, gallery and SEO.
+- [x] Store and verify contact enquiries; leave Google Sheets sync pending its deployment URL.
+- [x] Verify desktop/mobile flows and finish security update.
+- [x] Apply supplied logo and create a complete single-file export.
+- [ ] Connect GitHub in the editor and create the new synced repository. Blocked until the account authorization is completed.

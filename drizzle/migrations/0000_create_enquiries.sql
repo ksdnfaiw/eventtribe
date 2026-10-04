@@ -1,0 +1,3 @@
+CREATE TABLE public.enquiries (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), created_at timestamptz NOT NULL DEFAULT now(), name text NOT NULL, email text NOT NULL, phone text NOT NULL, event_type text NOT NULL, event_date text, venue_city text, attendees text, services text[] NOT NULL DEFAULT '{}', budget text, message text);
+GRANT ALL ON public.enquiries TO service_role;
+ALTER TABLE public.enquiries ENABLE ROW LEVEL SECURITY;

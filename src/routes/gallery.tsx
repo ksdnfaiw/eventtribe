@@ -1,0 +1,7 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { photos } from "@/lib/site-data";
+import { CtaBand, JsonLd, PageHero, Section, crumbs, seo } from "@/components/site";
+const cats=["All",...Array.from(new Set(photos.map(p=>p.category)))];
+export const Route=createFileRoute("/gallery")({head:()=>seo("Event Production Gallery | The Event Tribe","See conference, exhibition, entertainment, staging and lighting work by The Event Tribe.","/gallery"),component:Gallery});
+function Gallery(){const [filter,setFilter]=useState("All");const [active,setActive]=useState<number|null>(null);const list=photos.filter(p=>filter==="All"||p.category===filter);useEffect(()=>{const fn=(e:KeyboardEvent)=>{if(e.key==="Escape")setActive(null)};window.addEventListener("keydown",fn);return()=>window.removeEventListener("keydown",fn)},[]);return <><PageHero eyebrow="Gallery" title="The work, in the room."/><Section><div className="filters" aria-label="Filter gallery">{cats.map(c=><button key={c} className={filter===c?"on":""} onClick={()=>setFilter(c)}>{c}</button>)}</div><div className="masonry">{list.map((p,i)=><button key={p.image} aria-label={`Open ${p.alt}`} onClick={()=>setActive(i)}><img src={p.image} alt={p.alt} loading="lazy"/></button>)}</div></Section>{active!==null&&list[active]&&<button className="lightbox" aria-label="Close image" onClick={()=>setActive(null)}><img src={list[active].image} alt={list[active].alt}/></button>}<CtaBand/><JsonLd data={crumbs([["Home","/"],["Gallery","/gallery"]])}/></>}
