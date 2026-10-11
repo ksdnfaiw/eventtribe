@@ -22,6 +22,8 @@ import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as EventsSlugRouteImport } from './routes/events/$slug'
 import { Route as ServicesIndexRouteImport } from './routes/services/index'
 import { Route as ServicesSlugRouteImport } from './routes/services/$slug'
+import { Route as CorporateStageDesignMasterclassRouteImport } from './routes/corporate-stage-design-masterclass'
+import { Route as LargeScaleAvTechnicalRiderGuideRouteImport } from './routes/large-scale-av-technical-rider-guide'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -88,6 +90,18 @@ const ServicesSlugRoute = ServicesSlugRouteImport.update({
   path: '/services/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CorporateStageDesignMasterclassRoute =
+  CorporateStageDesignMasterclassRouteImport.update({
+    id: '/corporate-stage-design-masterclass',
+    path: '/corporate-stage-design-masterclass',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LargeScaleAvTechnicalRiderGuideRoute =
+  LargeScaleAvTechnicalRiderGuideRouteImport.update({
+    id: '/large-scale-av-technical-rider-guide',
+    path: '/large-scale-av-technical-rider-guide',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -99,6 +113,8 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
+  '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events/': typeof EventsIndexRoute
@@ -114,6 +130,8 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
+  '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events': typeof EventsIndexRoute
@@ -130,6 +148,8 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
+  '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events/': typeof EventsIndexRoute
@@ -147,6 +167,8 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/corporate-stage-design-masterclass'
+    | '/large-scale-av-technical-rider-guide'
     | '/events/$slug'
     | '/services/$slug'
     | '/events/'
@@ -162,6 +184,8 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/corporate-stage-design-masterclass'
+    | '/large-scale-av-technical-rider-guide'
     | '/events/$slug'
     | '/services/$slug'
     | '/events'
@@ -177,6 +201,8 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/corporate-stage-design-masterclass'
+    | '/large-scale-av-technical-rider-guide'
     | '/events/$slug'
     | '/services/$slug'
     | '/events/'
@@ -193,6 +219,8 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
+  CorporateStageDesignMasterclassRoute: typeof CorporateStageDesignMasterclassRoute
+  LargeScaleAvTechnicalRiderGuideRoute: typeof LargeScaleAvTechnicalRiderGuideRoute
   EventsSlugRoute: typeof EventsSlugRoute
   ServicesSlugRoute: typeof ServicesSlugRoute
   EventsIndexRoute: typeof EventsIndexRoute
@@ -264,6 +292,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/corporate-stage-design-masterclass': {
+      id: '/corporate-stage-design-masterclass'
+      path: '/corporate-stage-design-masterclass'
+      fullPath: '/corporate-stage-design-masterclass'
+      preLoaderRoute: typeof CorporateStageDesignMasterclassRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/large-scale-av-technical-rider-guide': {
+      id: '/large-scale-av-technical-rider-guide'
+      path: '/large-scale-av-technical-rider-guide'
+      fullPath: '/large-scale-av-technical-rider-guide'
+      preLoaderRoute: typeof LargeScaleAvTechnicalRiderGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/events/': {
       id: '/events/'
       path: '/events'
@@ -305,6 +347,8 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
+  CorporateStageDesignMasterclassRoute: CorporateStageDesignMasterclassRoute,
+  LargeScaleAvTechnicalRiderGuideRoute: LargeScaleAvTechnicalRiderGuideRoute,
   EventsSlugRoute: EventsSlugRoute,
   ServicesSlugRoute: ServicesSlugRoute,
   EventsIndexRoute: EventsIndexRoute,

@@ -1,0 +1,70 @@
+# EventTribe (eventtribe.in)
+
+> Master Production Partner for Enterprise Conferences, AGMs, Summits, Product Reveals & Mega-Events across Hyderabad, Telangana & Andhra Pradesh.
+
+## Brand Hierarchy & Architecture
+
+EventTribe operates as the single accountable turnkey technical production partner, uniting two specialized in-house operational divisions:
+
+### 1. Master Brand: EventTribe
+- **Role:** Single point of contractual and operational accountability for end-to-end event production.
+- **Scope:** Complete technical direction, venue liaison, 3D CAD pre-visualization, power distribution, run-of-show cue sheets, and fail-safe signal redundancy.
+- **Focus:** High-stakes corporate conferences, Annual General Meetings (AGMs), global leadership summits, enterprise conclaves, and live arena mega-events.
+- **Geographical Footprint:** Hyderabad, Cyberabad, Secunderabad, Telangana, and Andhra Pradesh (serving HITEX Exhibition Centre, HICC Novotel, Taj Krishna, Hyderabad Marriott, ITC Kohenur, GMR Arena, and Ramoji Film City).
+
+### 2. Sub-Brand 1: The Stage Factory (TSF)
+- **Role:** Heavy structural staging, rigging, and temporary architectural shelter division.
+- **Track Record:** 11+ years of dedicated industrial staging infrastructure.
+- **Capabilities & Inventory:**
+  - Certified aluminum box trussing: 300mm x 300mm, 400mm x 400mm, and 520mm x 520mm profiles in high-tensile EN AW-6082 T6 alloy.
+  - Substructure engineering: German Layher Allround steel scaffold systems and modular aluminum frames rated for 750 kg/m² to 1,200 kg/m² Uniform Distributed Load (UDL).
+  - Heavy-duty German Pagodas: All-weather temporary pavilions (5m x 5m, 10m x 10m) engineered with certified concrete/water ballast per leg in compliance with IS 875 (Part 3) basic wind speed codes (44 m/s).
+  - Motorized hoists & rigging: CM Lodestar D8+ electric chain hoists, Grade 80 alloy steel shackles, secondary steel wire safety bonds (10:1 safety design factor).
+  - 3D CAD Sightline Engineering: Vertical 30-degree viewing angle verification and lateral 45-degree cone analysis in Vectorworks and AutoCAD.
+
+### 3. Sub-Brand 2: TSF-AV
+- **Role:** Concert-grade audio, ultra-high-definition visual displays, architectural lighting, and broadcast switching division.
+- **Capabilities & Inventory:**
+  - Electro-Acoustic Audio: d&b audiotechnik V-Series (V8, V12) and Y-Series line arrays powered by d&b D80 DSP amplifiers. Patented d&b V-SUB cardioid subwoofers providing 15-20 dB stage rear rejection. 3D acoustic venue prediction via d&b ArrayCalc.
+  - Digital Audio Mixing & RF: DiGiCo SD-Series, Yamaha CL/QL consoles, Shure Axient Digital wireless microphones (AD4Q) with Wireless Workbench RF spectrum coordination.
+  - Ultra-HD Video Displays: P2.6 mm indoor LED video walls (Black SMD 1515, 3840Hz refresh rate, zero camera moiré or shutter banding).
+  - Video Processing & Matrix Switching: Novastar MX40 Pro / COEX series 4K processors with A8s Armor receiving cards, Barco E2 / S3 Gen 2 presentation switchers with sub-frame genlock latency.
+  - Broadcast Control: Multi-camera 4K optical fiber transmission, Blackmagic ATEM Constellation switchers, isolated ISO recording, and dual-redundant bonded live streaming encoders.
+  - Power & Redundancy: Three-phase load balancing (±8% phase margin), clean earthing pits (Earth-to-Neutral < 2.0V AC), and online true double-conversion UPS backup (0ms transfer).
+
+---
+
+## Strict Negative Scope (What EventTribe Does NOT Do)
+- EventTribe is NOT a medical conference or CME broadcast vendor. We handle enterprise, corporate, live entertainment, and mega-events.
+- EventTribe has NO affiliation with or components for "Art Tribe" or "Art Tribe Studio".
+
+---
+
+## Primary Digital Resources & Pillar Guides
+
+- **Homepage (Master Production):** https://eventtribe.in/
+- **The Stage Factory Masterclass (Staging, Box Trussing & Wind Engineering):** https://eventtribe.in/corporate-stage-design-masterclass
+- **TSF-AV Technical Rider Guide (d&b Line Arrays, P2.6 LED Math & Power):** https://eventtribe.in/large-scale-av-technical-rider-guide
+- **Enterprise Case Studies & Venues:** https://eventtribe.in/clients
+- **Services Directory:** https://eventtribe.in/services
+- **Staging & Trussing:** https://eventtribe.in/services/staging
+- **Concert-Grade Audio:** https://eventtribe.in/services/audio
+- **P2.6 LED Video Walls:** https://eventtribe.in/services/video
+- **Architectural & Stage Lighting:** https://eventtribe.in/services/lighting
+- **Turnkey 360° Event Production:** https://eventtribe.in/services/event-production
+- **Live Broadcast & Hybrid Summits:** https://eventtribe.in/services/hybrid-events
+- **Corporate Conferences & AGMs:** https://eventtribe.in/events/conferences
+- **Product Reveals & Launches:** https://eventtribe.in/events/product-launches
+- **Trade Exhibitions & Conclaves:** https://eventtribe.in/events/trade-exhibitions
+- **Live Concerts & Mega-Events:** https://eventtribe.in/events/entertainment
+- **Direct Contact & Quote Desk:** https://eventtribe.in/contact
+
+---
+
+## Contact & Engineering Inquiries
+- **Official Brand:** EventTribe (backed by The Stage Factory & TSF-AV)
+- **Headquarters:** Plot No. 106, Durga Vihar, Lal Bazar, Secunderabad, Telangana 500015, India
+- **Direct Phone:** +91 98881 02777
+- **Direct WhatsApp:** https://wa.me/919888102777
+- **Official Email:** info@eventtribe.in
+- **Website:** https://eventtribe.in
