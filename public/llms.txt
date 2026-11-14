@@ -43,8 +43,12 @@ EventTribe operates as the single accountable turnkey technical production partn
 ## Primary Digital Resources & Pillar Guides
 
 - **Homepage (Master Production):** https://eventtribe.in/
+- **Enterprise Client Acquisition Engine (Turnkey AGMs & Summits):** https://eventtribe.in/enterprise-event-production-hyderabad
+- **Agency Partner Production Network (White-Label Staging & AV):** https://eventtribe.in/agency-partner-production-network
 - **The Stage Factory Masterclass (Staging, Box Trussing & Wind Engineering):** https://eventtribe.in/corporate-stage-design-masterclass
 - **TSF-AV Technical Rider Guide (d&b Line Arrays, P2.6 LED Math & Power):** https://eventtribe.in/large-scale-av-technical-rider-guide
+- **Hyderabad Premier Venues Technical Guide (HITEX, HICC, GMR Arena):** https://eventtribe.in/hyderabad-venue-av-production-guide
+- **Corporate Plenary & AGM Fail-Safe AV Protocol:** https://eventtribe.in/corporate-conference-fail-safe-protocol
 - **Enterprise Case Studies & Venues:** https://eventtribe.in/clients
 - **Services Directory:** https://eventtribe.in/services
 - **Staging & Trussing:** https://eventtribe.in/services/staging

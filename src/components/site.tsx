@@ -98,11 +98,23 @@ export function Header() {
           <div className="dd">
             <span className="cursor-pointer text-[#f5f3ef]/80 hover:text-white transition-colors">Resources</span>
             <div className="dd-menu min-w-[280px]">
+              <Link to="/enterprise-event-production-hyderabad" onClick={close}>
+                Enterprise Production Protocol
+              </Link>
+              <Link to="/agency-partner-production-network" onClick={close}>
+                Agency Partner Network
+              </Link>
               <Link to="/corporate-stage-design-masterclass" onClick={close}>
                 Stage Design Masterclass (TSF)
               </Link>
               <Link to="/large-scale-av-technical-rider-guide" onClick={close}>
                 AV Technical Rider Guide (TSF-AV)
+              </Link>
+              <Link to="/hyderabad-venue-av-production-guide" onClick={close}>
+                Hyderabad Venue AV Guide
+              </Link>
+              <Link to="/corporate-conference-fail-safe-protocol" onClick={close}>
+                Plenary Fail-Safe Protocol
               </Link>
             </div>
           </div>
@@ -162,10 +174,12 @@ export function Footer() {
           <div>
             <p className="eyebrow">Pillar Guides</p>
             <p className="ftr-links">
+              <Link to="/enterprise-event-production-hyderabad">Enterprise Production</Link>
+              <Link to="/agency-partner-production-network">Agency Partner Network</Link>
               <Link to="/corporate-stage-design-masterclass">Stage Design Masterclass</Link>
               <Link to="/large-scale-av-technical-rider-guide">AV Technical Rider Guide</Link>
-              <Link to="/services/$slug" params={{ slug: "staging" }}>The Stage Factory (TSF)</Link>
-              <Link to="/services/$slug" params={{ slug: "audio" }}>TSF-AV Concert Sound</Link>
+              <Link to="/hyderabad-venue-av-production-guide">Hyderabad Venue AV Guide</Link>
+              <Link to="/corporate-conference-fail-safe-protocol">Plenary Fail-Safe Protocol</Link>
             </p>
           </div>
           <div>

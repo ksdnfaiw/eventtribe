@@ -24,6 +24,10 @@ import { Route as ServicesIndexRouteImport } from './routes/services/index'
 import { Route as ServicesSlugRouteImport } from './routes/services/$slug'
 import { Route as CorporateStageDesignMasterclassRouteImport } from './routes/corporate-stage-design-masterclass'
 import { Route as LargeScaleAvTechnicalRiderGuideRouteImport } from './routes/large-scale-av-technical-rider-guide'
+import { Route as EnterpriseEventProductionHyderabadRouteImport } from './routes/enterprise-event-production-hyderabad'
+import { Route as AgencyPartnerProductionNetworkRouteImport } from './routes/agency-partner-production-network'
+import { Route as HyderabadVenueAvProductionGuideRouteImport } from './routes/hyderabad-venue-av-production-guide'
+import { Route as CorporateConferenceFailSafeProtocolRouteImport } from './routes/corporate-conference-fail-safe-protocol'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -102,6 +106,30 @@ const LargeScaleAvTechnicalRiderGuideRoute =
     path: '/large-scale-av-technical-rider-guide',
     getParentRoute: () => rootRouteImport,
   } as any)
+const EnterpriseEventProductionHyderabadRoute =
+  EnterpriseEventProductionHyderabadRouteImport.update({
+    id: '/enterprise-event-production-hyderabad',
+    path: '/enterprise-event-production-hyderabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const AgencyPartnerProductionNetworkRoute =
+  AgencyPartnerProductionNetworkRouteImport.update({
+    id: '/agency-partner-production-network',
+    path: '/agency-partner-production-network',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const HyderabadVenueAvProductionGuideRoute =
+  HyderabadVenueAvProductionGuideRouteImport.update({
+    id: '/hyderabad-venue-av-production-guide',
+    path: '/hyderabad-venue-av-production-guide',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CorporateConferenceFailSafeProtocolRoute =
+  CorporateConferenceFailSafeProtocolRouteImport.update({
+    id: '/corporate-conference-fail-safe-protocol',
+    path: '/corporate-conference-fail-safe-protocol',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -115,6 +143,10 @@ export interface FileRoutesByFullPath {
   '/terms': typeof TermsRoute
   '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
   '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
+  '/enterprise-event-production-hyderabad': typeof EnterpriseEventProductionHyderabadRoute
+  '/agency-partner-production-network': typeof AgencyPartnerProductionNetworkRoute
+  '/hyderabad-venue-av-production-guide': typeof HyderabadVenueAvProductionGuideRoute
+  '/corporate-conference-fail-safe-protocol': typeof CorporateConferenceFailSafeProtocolRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events/': typeof EventsIndexRoute
@@ -132,6 +164,10 @@ export interface FileRoutesByTo {
   '/terms': typeof TermsRoute
   '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
   '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
+  '/enterprise-event-production-hyderabad': typeof EnterpriseEventProductionHyderabadRoute
+  '/agency-partner-production-network': typeof AgencyPartnerProductionNetworkRoute
+  '/hyderabad-venue-av-production-guide': typeof HyderabadVenueAvProductionGuideRoute
+  '/corporate-conference-fail-safe-protocol': typeof CorporateConferenceFailSafeProtocolRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events': typeof EventsIndexRoute
@@ -150,6 +186,10 @@ export interface FileRoutesById {
   '/terms': typeof TermsRoute
   '/corporate-stage-design-masterclass': typeof CorporateStageDesignMasterclassRoute
   '/large-scale-av-technical-rider-guide': typeof LargeScaleAvTechnicalRiderGuideRoute
+  '/enterprise-event-production-hyderabad': typeof EnterpriseEventProductionHyderabadRoute
+  '/agency-partner-production-network': typeof AgencyPartnerProductionNetworkRoute
+  '/hyderabad-venue-av-production-guide': typeof HyderabadVenueAvProductionGuideRoute
+  '/corporate-conference-fail-safe-protocol': typeof CorporateConferenceFailSafeProtocolRoute
   '/events/$slug': typeof EventsSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/events/': typeof EventsIndexRoute
@@ -169,6 +209,10 @@ export interface FileRouteTypes {
     | '/terms'
     | '/corporate-stage-design-masterclass'
     | '/large-scale-av-technical-rider-guide'
+    | '/enterprise-event-production-hyderabad'
+    | '/agency-partner-production-network'
+    | '/hyderabad-venue-av-production-guide'
+    | '/corporate-conference-fail-safe-protocol'
     | '/events/$slug'
     | '/services/$slug'
     | '/events/'
@@ -186,6 +230,10 @@ export interface FileRouteTypes {
     | '/terms'
     | '/corporate-stage-design-masterclass'
     | '/large-scale-av-technical-rider-guide'
+    | '/enterprise-event-production-hyderabad'
+    | '/agency-partner-production-network'
+    | '/hyderabad-venue-av-production-guide'
+    | '/corporate-conference-fail-safe-protocol'
     | '/events/$slug'
     | '/services/$slug'
     | '/events'
@@ -203,6 +251,10 @@ export interface FileRouteTypes {
     | '/terms'
     | '/corporate-stage-design-masterclass'
     | '/large-scale-av-technical-rider-guide'
+    | '/enterprise-event-production-hyderabad'
+    | '/agency-partner-production-network'
+    | '/hyderabad-venue-av-production-guide'
+    | '/corporate-conference-fail-safe-protocol'
     | '/events/$slug'
     | '/services/$slug'
     | '/events/'
@@ -221,6 +273,10 @@ export interface RootRouteChildren {
   TermsRoute: typeof TermsRoute
   CorporateStageDesignMasterclassRoute: typeof CorporateStageDesignMasterclassRoute
   LargeScaleAvTechnicalRiderGuideRoute: typeof LargeScaleAvTechnicalRiderGuideRoute
+  EnterpriseEventProductionHyderabadRoute: typeof EnterpriseEventProductionHyderabadRoute
+  AgencyPartnerProductionNetworkRoute: typeof AgencyPartnerProductionNetworkRoute
+  HyderabadVenueAvProductionGuideRoute: typeof HyderabadVenueAvProductionGuideRoute
+  CorporateConferenceFailSafeProtocolRoute: typeof CorporateConferenceFailSafeProtocolRoute
   EventsSlugRoute: typeof EventsSlugRoute
   ServicesSlugRoute: typeof ServicesSlugRoute
   EventsIndexRoute: typeof EventsIndexRoute
@@ -306,6 +362,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LargeScaleAvTechnicalRiderGuideRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/enterprise-event-production-hyderabad': {
+      id: '/enterprise-event-production-hyderabad'
+      path: '/enterprise-event-production-hyderabad'
+      fullPath: '/enterprise-event-production-hyderabad'
+      preLoaderRoute: typeof EnterpriseEventProductionHyderabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agency-partner-production-network': {
+      id: '/agency-partner-production-network'
+      path: '/agency-partner-production-network'
+      fullPath: '/agency-partner-production-network'
+      preLoaderRoute: typeof AgencyPartnerProductionNetworkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hyderabad-venue-av-production-guide': {
+      id: '/hyderabad-venue-av-production-guide'
+      path: '/hyderabad-venue-av-production-guide'
+      fullPath: '/hyderabad-venue-av-production-guide'
+      preLoaderRoute: typeof HyderabadVenueAvProductionGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/corporate-conference-fail-safe-protocol': {
+      id: '/corporate-conference-fail-safe-protocol'
+      path: '/corporate-conference-fail-safe-protocol'
+      fullPath: '/corporate-conference-fail-safe-protocol'
+      preLoaderRoute: typeof CorporateConferenceFailSafeProtocolRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/events/': {
       id: '/events/'
       path: '/events'
@@ -349,6 +433,10 @@ const rootRouteChildren: RootRouteChildren = {
   TermsRoute: TermsRoute,
   CorporateStageDesignMasterclassRoute: CorporateStageDesignMasterclassRoute,
   LargeScaleAvTechnicalRiderGuideRoute: LargeScaleAvTechnicalRiderGuideRoute,
+  EnterpriseEventProductionHyderabadRoute: EnterpriseEventProductionHyderabadRoute,
+  AgencyPartnerProductionNetworkRoute: AgencyPartnerProductionNetworkRoute,
+  HyderabadVenueAvProductionGuideRoute: HyderabadVenueAvProductionGuideRoute,
+  CorporateConferenceFailSafeProtocolRoute: CorporateConferenceFailSafeProtocolRoute,
   EventsSlugRoute: EventsSlugRoute,
   ServicesSlugRoute: ServicesSlugRoute,
   EventsIndexRoute: EventsIndexRoute,

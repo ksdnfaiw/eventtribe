@@ -3,4 +3,8 @@
 - [x] Store and verify contact enquiries; leave Google Sheets sync pending its deployment URL.
 - [x] Verify desktop/mobile flows and finish security update.
 - [x] Apply supplied logo and create a complete single-file export.
-- [ ] Connect GitHub in the editor and create the new synced repository. Blocked until the account authorization is completed.
+- [x] Connect GitHub in the editor and sync repository.
+- [x] Implement Dual-Engine B2B Acquisition: Enterprise Client Engine & Agency Partner Network.
+- [x] Author comprehensive Hyderabad Premier Venues Technical Production Guide (HITEX, HICC, GMR Arena).
+- [x] Author Corporate Conference & AGM Fail-Safe AV Protocol (Redundancy, Dante, 0ms UPS).
+- [x] Deploy IndexNow instant submission engine (HTTP 202 accepted) and machine-readable llms.txt.
