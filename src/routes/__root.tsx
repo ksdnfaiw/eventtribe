@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Master corporate event production partner in Hyderabad, backed by The Stage Factory (Staging & Trussing) and TSF-AV (Concert Sound & LED Video Walls).",
       },
       { name: "author", content: "EventTribe" },
-      { name: "google-site-verification", content: "googlefc692c0cc9f7c231" },
+      { name: "google-site-verification", content: "X03xsPpcIiStssl_O-cfUdIkRAcgPTFXGo2fVpLWkAc" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -113,6 +113,7 @@ function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="X03xsPpcIiStssl_O-cfUdIkRAcgPTFXGo2fVpLWkAc" />
         <HeadContent />
         {/* Placeholder: Meta Pixel (Loaded asynchronously without blocking Core Web Vitals) */}
         <script

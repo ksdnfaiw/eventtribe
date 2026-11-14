@@ -57,12 +57,20 @@ const faqs = [
 ];
 
 export const Route = createFileRoute("/")({
-  head: () =>
-    seo(
+  head: () => {
+    const s = seo(
       "EventTribe | Master Corporate Event Production Hyderabad",
       "Turnkey corporate event production in Hyderabad. Heavy staging & trussing by The Stage Factory (TSF) and concert audio & P2.6 LED video walls by TSF-AV.",
       "/"
-    ),
+    );
+    return {
+      ...s,
+      meta: [
+        ...s.meta,
+        { name: "google-site-verification", content: "X03xsPpcIiStssl_O-cfUdIkRAcgPTFXGo2fVpLWkAc" },
+      ],
+    };
+  },
   component: Home,
 });
 
