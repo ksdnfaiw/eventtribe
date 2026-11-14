@@ -87,6 +87,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "EventTribe" },
       { name: "google-site-verification", content: "X03xsPpcIiStssl_O-cfUdIkRAcgPTFXGo2fVpLWkAc" },
+      { name: "google-site-verification", content: "X03xsPpcIiStssl_O-cfUdIkRAcgPTFXGo2fVpLWkAc" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

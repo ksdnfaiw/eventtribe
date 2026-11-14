@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://eventtribe.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://eventtribe.in/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eventtribe.in/services</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/services/staging</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/services/audio</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/services/video</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/services/lighting</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/services/event-production</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/services/hybrid-events</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/events</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/events/conferences</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/events/product-launches</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/events/trade-exhibitions</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/events/entertainment</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://eventtribe.in/enterprise-event-production-hyderabad</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://eventtribe.in/agency-partner-production-network</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://eventtribe.in/corporate-stage-design-masterclass</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/large-scale-av-technical-rider-guide</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/hyderabad-venue-av-production-guide</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/corporate-conference-fail-safe-protocol</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eventtribe.in/clients</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eventtribe.in/gallery</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://eventtribe.in/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eventtribe.in/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://eventtribe.in/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
