@@ -86,6 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Master corporate event production partner in Hyderabad, backed by The Stage Factory (Staging & Trussing) and TSF-AV (Concert Sound & LED Video Walls).",
       },
       { name: "author", content: "EventTribe" },
+      { name: "google-site-verification", content: "googlefc692c0cc9f7c231" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
